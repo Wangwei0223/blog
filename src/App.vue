@@ -2,15 +2,17 @@
   <div id="app">
     <img src="./assets/logo.png">
     <!-- <router-view/> -->
-    <Message></Message>
+    <!-- <Message></Message> -->
+    <Toggle></Toggle>
   </div>
 </template>
 
 <script>
 import Message from '@/components/Message'
+import Toggle from '@/components/Toggle'
 export default {
   name: 'App',
-  components: {Message}
+  components: {Message,Toggle}
 }
 </script>
 
